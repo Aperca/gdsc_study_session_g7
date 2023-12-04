@@ -1,0 +1,53 @@
+
+ul{
+    margin:5px;
+    padding: 0;
+}
+li {
+     justify-content: space-between; /* Align items at both ends of the flex container */
+     align-items: center;
+    display:flex;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 20px;
+    background: #f8f83a;
+    font-size: 18px;
+    border: 1px solid black; 
+    transition: 0.3s;
+  }
+  li:hover {
+    background: #ddd;
+   }
+
+ 
+input{
+  font-size: 15px;
+    padding: 8px 10px 10px 8px;
+    background: rgb(161, 243, 216);
+    width: 400px;   
+ 
+  }
+  input:hover {
+    background: #fcf5f5;
+  }
+
+ #btnid:hover {
+    background-color: #f3a6a6;
+  }
+#btnid{
+  font-size: 15px;
+  padding: 8px 10px 10px 8px;
+}
+
+.close {
+        cursor: pointer;
+        color: red;
+        margin-left: 180px;
+      } /*for the dynamically created close button*/
+
+#head {
+        text-align: center; /* Center-align the text */
+        margin-top: 20px; /* Add some top margin for spacing */
+        font-size: 26px;
+ } 
+ 

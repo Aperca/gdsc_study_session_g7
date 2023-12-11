@@ -1,0 +1,35 @@
+.React7 {
+  text-align: center;
+  margin: 50px;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(219, 113, 52, 0.5);
+}
+
+.React7 h2 {
+  color: #2ec1cc;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.React7 ul {
+  list-style-type:georgian;
+  list-style-position: initial;
+  padding: 10px;
+}
+
+.React7 li {
+  margin: 10px;
+  font-size: 16px;
+  color: #01060a;
+}
+
+.img {
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 24px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.582);
+}

@@ -1,23 +1,31 @@
-/* import React from 'react';
-import flowers from'./flowers.jpg';
+import React from 'react';
+import flowersImage from './flowers.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="container mx-auto my-8">
-      <h1 className="text-blue-600" >About Me</h1>
-      <p className="text-lg">
-        Hello! I'm Adey, a passionate developer who loves building
-        awesome web applications. 
-       </p>
-       <p>Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
-        It's fast, flexible, and reliable — with zero-runtime.</p>
-      
+      <h1 className="text-3xl font-bold text-blue-600 mb-4">About Me</h1>
+      <div className="flex items-center mb-8">
+        <img src={flowersImage} alt="Flowers" className="w-16 h-16 rounded-full mr-4" />
+        <div>
+          <h2 className="text-xl font-medium text-gray-800">Abebe</h2>
+          <p className="text-gray-600">Passionate Farmer</p>
+        </div>
+      </div>
+      <p className="text-lg leading-relaxed text-gray-700">
+        Hello! I'm Abebe, a passionate farmer with over 10 years of experience in the agricultural industry.
+        I specialize in organic farming methods, ensuring that the produce I grow is healthy and free from harmful chemicals.
+        My love for nature and sustainable practices has led me to adopt eco-friendly farming techniques, such as crop rotation, natural pest control, and water conservation.
+        I believe that by taking care of the environment, we can produce high-quality crops while preserving the land for future generations.
+      </p>
     </div>
   );
 }
 
-export default App; */
+export default App;
+
+/* 
 import React from 'react';
 import flowers from'./flowers.jpg';
 
@@ -45,3 +53,4 @@ const App = () => {
 };
 
 export default App;
+ */
